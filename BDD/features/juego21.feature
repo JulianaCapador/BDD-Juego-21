@@ -4,9 +4,9 @@ Scenario: Repartir las cartas
     En la primera ronda no se pueden reaprtir mas de 2 cartas
     Se repartiran las dos cartas iniciales a los jugadores
   Given Existe un maso de cartas con valores de 1 a 11
-    And hay más de un jugador
+    And hay mas de un jugador
    When los jugadores tengan menos de 2 cartas
-   Then EL jugador obtiene las cartas
+   Then El jugador obtiene las cartas
 
 Scenario: Jugar la ronda
   Given  Las cartas que el jugador tenga y verificada la condición de alcanzar el valor exacto o cercano menor a 21.
